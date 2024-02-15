@@ -1,0 +1,53 @@
+@font-face {
+    font-family: pta;
+    src: url(./fonttext/Rene\ Bieder\ \ Milliard\ Bold.woff);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: pta;
+    font-size: 2.5vh;
+    margin: 0px;
+
+}
+li{
+    list-style-type: none;
+ 
+}
+nav img{
+    height: 7vh;
+    width: 30vh;
+    object-fit: contain;
+    margin-left: 2vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+
+}
+nav div{
+    display: flex;  
+}
+nav div ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vh;
+    align-items: center;
+    height: 7vh;
+    margin: 0px;
+}
+.banner img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    
+    background-color: white;
+}
